@@ -1,7 +1,14 @@
 "use strict";
 
 
-const str = "test";
 
-console.log(str[2]);
+const solider = {
+    health: 400,
+    armor: 100
+};
+
+const johh = Object.create(solider);
+    
+
+
 
